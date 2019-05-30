@@ -23,11 +23,12 @@ To run this code, simply type
 $ ./entropy.csh proteome.fasta
 
 A file proteome.entropy.dat will be generated in the format as below:
-
+######
 Gene                      Capacity   Entropy    Info       lnC        R         
 sp|Q9H9K5|MER34_HUMAN     563.000    328.096    234.904    6.333      1.397     
 sp|P31689|DNJA1_HUMAN     397.000    314.244    82.756     5.984      3.797     
 sp|P08246|ELNE_HUMAN      267.000    133.614    133.386    5.587      1.002     
 sp|P10144|GRAB_HUMAN      247.000    169.883    77.117     5.509      2.203
+######
 
 The first column is the gene name, the second column is the protein capacity (equals to protein amino acid sequence length), protein structural entropy (H), protein structural information (I), log(capacity) and the entropy-to-information ratio Ri = Hi:Ii. Note that the natural logarithm function was applied in the fifth column, which was changed to log2 scale in the manuscript.
