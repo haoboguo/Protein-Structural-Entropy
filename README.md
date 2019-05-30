@@ -32,3 +32,7 @@ sp|P10144|GRAB_HUMAN      247.000    169.883    77.117     5.509      2.203
 ######
 
 The first column is the gene name, the second column is the protein capacity (equals to protein amino acid sequence length), protein structural entropy (H), protein structural information (I), log(capacity) and the entropy-to-information ratio Ri = Hi:Ii. Note that the natural logarithm function was applied in the fifth column, which was changed to log2 scale in the manuscript.
+
+The code and examples are related to the manuscript "A suggestion of converting protein intrinsic disorder to structural entropy using Shannon's information theory", submitted to the journal Entropy (2019).
+
+Hao-Bo Guo
