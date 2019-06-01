@@ -35,6 +35,8 @@ The first column is the gene name, the second column is the protein capacity (eq
 
 The code and examples are related to the manuscript "A suggestion of converting protein intrinsic disorder to structural entropy using Shannon's information theory", submitted to the journal Entropy (2019).
 
-500 random protein sequences with random capacities range from 50 to 800 were built using the code random.R.
+500 random protein sequences with random capacities range from 50 to 800 were built using the code random.seq.R. Run this code using R:
+$ R -f random.seq.R
+which may result different sequences random.fasta
 
 Hao-Bo Guo
